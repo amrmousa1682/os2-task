@@ -2,8 +2,6 @@ FROM openjdk
 
 WORKDIR /home
 
-COPY ./run.sh .
-
-COPY ./test.java .
+COPY ./run.sh ./test.java ./
 
 CMD ./run.sh
